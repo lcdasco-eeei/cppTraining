@@ -12,10 +12,24 @@
 #include <string>
 #include <cstdio>
 #include <cstdint>
+#include <typeinfo>
+#include <vector>
 
 void dataTypesMain();
 void dataTypesPrint(std::string argString);
 void integers();
-
+void floatingPoint();
+void charStrings();
+void escapeSequences();
+void qualifiers();
+void references();
+void structure();
+void bitFields();
+void enumerations();
+void unions();
+void typedefs();
+void voidFunc();
+void autoType();
+void unambigousNullPointer();
 
 #endif /* DATATYPES_H_ */

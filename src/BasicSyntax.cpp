@@ -63,6 +63,8 @@ void ptrsRef()
 
 void primitiveArray()
 {
+	basicPrint(__FUNCTION__);
+
 	basicPrint("*** Primitive Arrays ***");
 	int intArray[5] = {1, 2, 3, 4, 5 };
 	int *intArrayPtr = intArray;
@@ -82,6 +84,8 @@ void primitiveArray()
 
 void primitiveStrings()
 {
+	basicPrint(__FUNCTION__);
+
 	basicPrint("*** Primitive Strings aka C Strings ***");
 	basicPrint("C String is primitive array of char terminated with a 0");
 	basicPrint("C String aka NULL terminated string");
@@ -115,6 +119,7 @@ void primitiveStrings()
 
 void conditional()
 {
+	basicPrint(__FUNCTION__);
 	basicPrint("*** Conditionals ***");
 
 	int x = 43;
@@ -138,6 +143,7 @@ void conditional()
 
 void switchCase()
 {
+	basicPrint(__FUNCTION__);
 	basicPrint("*** Switch Case ***");
 
 
@@ -180,6 +186,7 @@ void switchCase()
 
 void whileLoop()
 {
+	basicPrint(__FUNCTION__);
 	basicPrint("*** While Loop ***");
 	int intArray[5] = {1, 2, 3, 4, 5 };
 
@@ -208,6 +215,7 @@ void whileLoop()
 
 void forLoop()
 {
+	basicPrint(__FUNCTION__);
 	basicPrint("*** For Loop ***");
 
 	char cString[] = "abcdefg";

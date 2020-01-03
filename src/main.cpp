@@ -14,7 +14,7 @@ using namespace std;
 int main() {
 	cout << " *** Welcome to C++ Training Exercise *** " << endl; // prints !!!Hello World!!!
 
-	// basicMain();
+	basicMain();
 	dataTypesMain();
 	return 0;
 }
