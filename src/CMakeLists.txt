@@ -17,9 +17,10 @@ add_compile_options("-fno-strict-aliasing") # this optimization can be re-enable
 
 # add the executable
 add_executable(${PROJECT_NAME} 
-#    LdecController.cpp
 	BasicSyntax.cpp
 	DataTypes.cpp
+	Operators.cpp
+	Functions.cpp
     main.cpp
 )
 

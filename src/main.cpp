@@ -10,11 +10,15 @@
 using namespace std;
 #include "BasicSyntax.h"
 #include "DataTypes.h"
+#include "Operators.h"
+#include "Functions.h"
 
 int main() {
 	cout << " *** Welcome to C++ Training Exercise *** " << endl; // prints !!!Hello World!!!
 
-	basicMain();
-	dataTypesMain();
+	// basicMain();
+	// dataTypesMain();
+	// operatorsMain();
+	functionsMain();
 	return 0;
 }
