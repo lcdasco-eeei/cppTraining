@@ -15,6 +15,11 @@
 void functionsMain();
 void functionsPrint(std::string argString);
 void overview();
+void passingValues();
+void funcStorageAutoStatic();
+void returnType();
+void funcPtr();
+void arrayFuncPtr();
 
 
 
