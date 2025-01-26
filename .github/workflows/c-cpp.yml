@@ -32,12 +32,3 @@ jobs:
       run: which cmake
     - name: Check g++ installation
       run: cmake --version
-    - name : build
-      run: |
-        ls
-        ./scripts.build.sh
-        ls
-    - name : run
-        ls
-        ./scripts.buildRun.sh
-        ls
