@@ -15,3 +15,9 @@ jobs:
     - uses: actions/checkout@v4
     - name: Check g++ installation
       run: which g++
+    - name: Check g++ installation
+      run: which g++ --version
+    - name : build
+      run : cd src; g++ *.cpp -o cpptrials
+    - name : run
+      run : cd src; cpptrials
