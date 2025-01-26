@@ -7,7 +7,7 @@ on:
     branches: [ "master" ]
 
 jobs:
-  build:
+  setup:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
@@ -28,7 +28,16 @@ jobs:
       run: which g++
     - name: Check g++ installation
       run: g++ --version
-    - name: Check g++ installation
+    - name: Check cmake installation
       run: which cmake
-    - name: Check g++ installation
+    - name: Check cmake installation
       run: cmake --version
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Run Build
+      run: |
+        ls scripts/ 
+        chmod +x scripts/
+        ./scripts/build.sh
