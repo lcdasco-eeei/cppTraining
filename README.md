@@ -1,5 +1,5 @@
 # Basic C++ Training Exercise Files
+This includes basic C++ Syntax and CI/CD demo using cmake.
 
-$ cd src \n
-$ g++ *.cpp -o cpptrials \n
-$ cpptrials \n
+Refer to GitHub Actions for details.
+https://github.com/lcdasco-eeei/cppTraining/actions
