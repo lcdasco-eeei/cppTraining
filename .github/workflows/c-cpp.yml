@@ -16,7 +16,7 @@ jobs:
     - name: Check g++ installation
       run: which g++
     - name: Check g++ installation
-      run: which g++ --version
+      run: g++ --version
     - name : build
       run : cd src; g++ *.cpp -o cpptrials
     - name : run
