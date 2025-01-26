@@ -36,8 +36,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - name: Run Build
+    - name: Build Trial
       run: |
         ls scripts/ 
         chmod +x scripts/
         ./scripts/build.sh
+  run:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Build and Run
+      run: |
+        ls scripts/ 
+        chmod +x scripts/
+        ./scripts/buildRun.sh
