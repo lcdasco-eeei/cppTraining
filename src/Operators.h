@@ -13,6 +13,7 @@
 #include <cstdio>
 #include <new>
 #include <typeinfo>
+#include <stdint.h>
 
 void operatorsMain();
 void operatorsPrint(std::string argString);
