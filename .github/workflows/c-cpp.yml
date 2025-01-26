@@ -17,15 +17,29 @@ jobs:
       run: which g++
     - name: Check g++ installation
       run: g++ --version
-    - name: Install Build Essential
+    - name: Check g++ installation
+      run: which cmake
+    - name: Check g++ installation
+      run: cmake --version
+    - name: Install Cmake
       run: |
-        sudo apt update
+        sudo apt update 
         sudo apt install build-essential
+        sudo apt install cmake
     - name: Check g++ installation
       run: which g++
     - name: Check g++ installation
-      run: g++ --version  
+      run: g++ --version
+    - name: Check g++ installation
+      run: which cmake
+    - name: Check g++ installation
+      run: cmake --version
     - name : build
-      run : cd src; g++ *.cpp -o cpptrials
+      run: |
+        ls
+        ./scripts.build.sh
+        ls
     - name : run
-      run : cd src; cpptrials
+        ls
+        ./scripts.buildRun.sh
+        ls
