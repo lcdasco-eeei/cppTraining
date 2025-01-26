@@ -18,7 +18,9 @@ jobs:
     - name: Check g++ installation
       run: g++ --version
     - name: Install Build Essential
-      run: sudo apt-get install build essential
+      run: |
+        sudo apt update
+        sudo apt install build-essential
     - name: Check g++ installation
       run: which g++
     - name: Check g++ installation
